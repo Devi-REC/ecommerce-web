@@ -1,0 +1,281 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Essence Mascara Lash Princess",
+            "description": "The Essence Mascara Lash Princess is renowned for its volumizing and lengthening effects. It helps you achieve dramatic lashes without clumping, providing a natural yet bold look.",
+            "category": "beauty",
+            "price": 749,
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcuwzUwbSNbSmrkIo81Ky0OIsUDX10ym6cyg&s"],
+            "reviews": [
+                {"reviewerName": "John Doe", "date": "2024-05-23", "rating": 2, "comment": "Very unhappy with my purchase!"},
+                {"reviewerName": "Nolan Gonzalez", "date": "2024-05-23", "rating": 2, "comment": "Not as described!"},
+                {"reviewerName": "Scarlett Wright", "date": "2024-05-23", "rating": 5, "comment": "Very satisfied!"}
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Men's Casual Shirt",
+            "description": "A stylish and comfortable casual shirt for men, made from breathable fabric. Perfect for both work and casual outings, offering a relaxed fit and modern design.",
+            "category": "men's clothing",
+            "price": 2249,
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdHFubGMZEGRTYnQzxyQOSAQk9T1PPqni1HA&s"],
+            "reviews": [
+                {"reviewerName": "Alice Smith", "date": "2024-06-01", "rating": 4, "comment": "Great shirt, fits well!"}
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Women's Summer Dress",
+            "description": "A beautiful and breezy summer dress for women, featuring a floral print and lightweight material. Ideal for hot weather, offering both style and comfort.",
+            "category": "women's clothing",
+            "price": 2999,
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHFZkcEh7t4KNtLR0Lp1_JDmTRzVjw9hKMzg&s"],
+            "reviews": [
+                {"reviewerName": "Emily Johnson", "date": "2024-06-05", "rating": 5, "comment": "Perfect for summer!"}
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Organic Grocery Basket",
+            "description": "A basket of assorted organic groceries including fresh fruits, vegetables, and other essentials. Enjoy the best of nature's produce with this convenient basket.",
+            "category": "groceries",
+            "price": 1499,
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuP8_sjWLGUZFGDD2PCygqdPfvOexdcTpCVw&s"],
+            "reviews": [
+                {"reviewerName": "Michael Brown", "date": "2024-06-10", "rating": 4, "comment": "Fresh and healthy produce."}
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Fitness Tracker",
+            "description": "Track your fitness goals with this smart fitness tracker. Features include heart rate monitoring, step counting, and sleep tracking, all in a sleek design.",
+            "category": "electronics",
+            "price": 3749,
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Jk5v5LmmRd9RPgSsyg9IjBy3_etXMODMyw&s"],
+            "reviews": [
+                {"reviewerName": "Sophia Lee", "date": "2024-06-12", "rating": 5, "comment": "Excellent tracker with great features!"}
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Leather Wallet",
+            "description": "A stylish leather wallet for men, crafted from high-quality leather. Features multiple compartments for cards, cash, and IDs, combining functionality with elegance.",
+            "category": "accessories",
+            "price": 2249,
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJGdiuWfuFVQYfRc7_ZXodyGRr1MybPXL2pQ&s"],
+            "reviews": [
+                {"reviewerName": "James Wilson", "date": "2024-06-15", "rating": 4, "comment": "Good quality wallet."}
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Bluetooth Headphones",
+            "description": "Enjoy wireless music with these Bluetooth headphones, featuring noise-cancellation, long battery life, and comfortable ear cups for an immersive listening experience.",
+            "category": "electronics",
+            "price": 6749,
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzmdB9cI6xl5nFVNlp-1f3oH0OshqRwETigQ&s"],
+            "reviews": [
+                {"reviewerName": "Olivia Martin", "date": "2024-06-18", "rating": 5, "comment": "Great sound quality and comfort!"}
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Yoga Mat",
+            "description": "A durable and comfortable yoga mat designed for stability and support during your yoga practice. Made from high-quality, non-slip material.",
+            "category": "fitness",
+            "price": 2099,
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1O7K_QfdQjqg3AOSCUSxInwVKm6_GbiGoiA&s"],
+            "reviews": [
+                {"reviewerName": "Emma Davis", "date": "2024-06-22", "rating": 4, "comment": "Comfortable and non-slip."}
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Smartphone Stand",
+            "description": "A handy stand for holding your smartphone at the perfect angle for viewing or video calls. Made from durable materials with an adjustable design.",
+            "category": "accessories",
+            "price": 949,
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuYgos_OEyFQBefVfRCZeUBbf1zOJB0z_tAQ&s"],
+            "reviews": [
+                {"reviewerName": "Lucas Garcia", "date": "2024-06-25", "rating": 4, "comment": "Useful and sturdy stand."}
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Water Bottle",
+            "description": "Stay hydrated with this reusable water bottle, made from BPA-free plastic and featuring a leak-proof design. Ideal for daily use and on-the-go.",
+            "category": "groceries",
+            "price": 749,
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlIEn9dSnca5DLNFTQnH4yfNIxrQrfFSnZLw&s"],
+            "reviews": [
+                {"reviewerName": "Ava Rodriguez", "date": "2024-07-01", "rating": 5, "comment": "Perfect for daily use!"}
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Sunglasses",
+            "description": "Stylish sunglasses with UV protection, perfect for sunny days. Features include a sleek design and high-quality lenses for clear vision.",
+            "category": "accessories",
+            "price": 1499,
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn7jnmwe2hs6BK6oeJvGOID3iGICqTevgTyg&s"],
+            "reviews": [
+                {"reviewerName": "Isabella Martinez", "date": "2024-07-04", "rating": 4, "comment": "Good quality and design."}
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Electric Kettle",
+            "description": "Boil water quickly with this electric kettle, featuring an automatic shut-off function and a sleek stainless steel design. Ideal for tea and coffee lovers.",
+            "category": "home appliances",
+            "price": 2599,
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLIwLBs_hA5WFtjoeksXWZCTB9XAYcfjKRtw&s"],
+            "reviews": [
+                {"reviewerName": "Mia Wilson", "date": "2024-07-10", "rating": 5, "comment": "Fast boiling and durable!"}
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Camping Tent",
+            "description": "A spacious and durable camping tent for outdoor adventures. Designed to withstand various weather conditions, with ample space for a family of four.",
+            "category": "outdoor",
+            "price": 11249,
+            "images": ["https://images-cdn.ubuy.co.in/641394f0627e967ccc79f16e-unp-camping-tent-10-person-family-tents.jpg"],
+            "reviews": [
+                {"reviewerName": "Ethan Lee", "date": "2024-07-15", "rating": 4, "comment": "Great tent for the price!"}
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Portable Charger",
+            "description": "Keep your devices charged on the go with this portable charger, featuring a high-capacity battery and multiple charging ports.",
+            "category": "electronics",
+            "price": 1899,
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtX_4zwRv8UWQPzOwPFDfCHVum-rjgwDe4hQ&s"],
+            "reviews": [
+                {"reviewerName": "Liam Harris", "date": "2024-07-20", "rating": 4, "comment": "Very handy and reliable."}
+            ]
+        },
+        {
+            "id": 15,
+            "title": "Blender",
+            "description": "Blend your favorite smoothies and soups with this powerful blender. Includes multiple speed settings and a durable glass jar.",
+            "category": "home appliances",
+            "price": 4499,
+            "images": ["https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/best-blenders-for-your-kitchen-2022-section-1.jpg"],
+            "reviews": [
+                {"reviewerName": "Aiden Walker", "date": "2024-07-25", "rating": 5, "comment": "Excellent blender for daily use."}
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Running Shoes",
+            "description": "Comfortable running shoes designed for optimal support and cushioning during your workouts. Breathable material and a lightweight design.",
+            "category": "men's clothing",
+            "price": 5199,
+            "images": ["https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/450ed1df-8e17-4d87-a244-85697874661c/NIKE+REVOLUTION+7.png"],
+            "reviews": [
+                {"reviewerName": "Chloe Scott", "date": "2024-07-30", "rating": 4, "comment": "Good fit and support."}
+            ]
+        },
+        {
+            "id": 17,
+            "title": "Cotton Bed Sheets",
+            "description": "Soft and comfortable cotton bed sheets set, ideal for a good night's sleep. Comes in various colors and sizes to match your bedroom decor.",
+            "category": "home textiles",
+            "price": 3499,
+            "images": ["https://www.malako-india.com/cdn/shop/products/malako-italian-opulence-800-tc-turquoise-jacquard-super-king-size-100-egyptian-cotton-bed-sheetduvet-cover-376368.webp?v=1714991607"],
+            "reviews": [
+                {"reviewerName": "Sophia Green", "date": "2024-08-01", "rating": 5, "comment": "Very soft and cozy!"}
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Smart Watch",
+            "description": "A smart watch with fitness tracking, notifications, and customizable watch faces. Keep track of your health and stay connected with style.",
+            "category": "electronics",
+            "price": 5999,
+            "images": ["https://images-cdn.ubuy.co.in/633b12488d2edc65997f4c1f-smart-watch-bluetooth-smartwatch-touch.jpg"],
+            "reviews": [
+                {"reviewerName": "Daniel Taylor", "date": "2024-08-05", "rating": 5, "comment": "Feature-rich and stylish!"}
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Wall Art",
+            "description": "Beautiful wall art to enhance the aesthetics of your living space. Available in various designs and sizes to suit your home decor.",
+            "category": "home decor",
+            "price": 1499,
+            "images": ["https://wallmantra.com/wp-content/uploads/1311_jpg.jpg"],
+            "reviews": [
+                {"reviewerName": "Grace Evans", "date": "2024-08-10", "rating": 4, "comment": "Adds a nice touch to the room."}
+            ]
+        },
+        {
+            "id": 20,
+            "title": "Kitchen Knife Set",
+            "description": "A high-quality kitchen knife set that includes various knives for different culinary needs. Sharp blades and comfortable handles for easy use.",
+            "category": "kitchenware",
+            "price": 2599,
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzd4RXfXxV9WUSSdJZ8rd86J5czRjoIKdyFA&s"],
+            "reviews": [
+                {"reviewerName": "Lucas Robinson", "date": "2024-08-15", "rating": 5, "comment": "Very sharp and durable."}
+            ]
+        },
+        {
+            "id": 21,
+            "title": "Desk Lamp",
+            "description": "A modern desk lamp with adjustable brightness and angle. Ideal for reading or working late into the night, with a sleek design that fits any desk.",
+            "category": "home decor",
+            "price": 1299,
+            "images": ["https://images-cdn.ubuy.co.in/65b9d19de7f17d2e812738b8-mainstays-led-gooseneck-desk-lamp-with.jpg"],
+            "reviews": [
+                {"reviewerName": "Mia Turner", "date": "2024-08-20", "rating": 4, "comment": "Good lighting and adjustable."}
+            ]
+        },
+        {
+            "id": 22,
+            "title": "Bluetooth Speaker",
+            "description": "Portable Bluetooth speaker with high-quality sound and long battery life. Perfect for enjoying music on the go or at home.",
+            "category": "electronics",
+            "price": 2999,
+            "images": ["https://5.imimg.com/data5/SELLER/Default/2022/10/TA/RV/QJ/78198701/music-mini-bluetooth-speaker.webp"],
+            "reviews": [
+                {"reviewerName": "Ella Adams", "date": "2024-08-25", "rating": 4, "comment": "Great sound for the size."}
+            ]
+        },
+        {
+            "id": 23,
+            "title": "Ceramic Vase",
+            "description": "Elegant ceramic vase that can be used to display flowers or as a decorative piece. Features a classic design and sturdy build.",
+            "category": "home decor",
+            "price": 899,
+            "images": ["https://i.pinimg.com/736x/a9/88/a2/a988a2bff9b8c29421a7cd4102ae3b40.jpg"],
+            "reviews": [
+                {"reviewerName": "Charlotte Mitchell", "date": "2024-08-30", "rating": 5, "comment": "Beautiful and well-crafted."}
+            ]
+        },
+        {
+            "id": 24,
+            "title": "Gaming Mouse",
+            "description": "High-precision gaming mouse with customizable buttons and RGB lighting. Designed for gamers seeking top performance and comfort.",
+            "category": "electronics",
+            "price": 3499,
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdilrxBkKl_s5oKe8Q6A4Rl7pVvzr4qeonyQ&s"],
+            "reviews": [
+                {"reviewerName": "Ethan Lewis", "date": "2024-09-01", "rating": 5, "comment": "Excellent for gaming."}
+            ]
+        },
+        {
+            "id": 25,
+            "title": "Outdoor Grill",
+            "description": "Durable outdoor grill perfect for barbecues and outdoor cooking. Features a spacious grilling area and adjustable temperature control.",
+            "category": "outdoor",
+            "price": 8999,
+            "images": ["https://images-cdn.ubuy.co.in/64dfd87a60276f62232d1a8a-costway-outdoor-bbq-grill-charcoal.jpg"],
+            "reviews": [
+                {"reviewerName": "Oliver Clark", "date": "2024-09-05", "rating": 5, "comment": "Perfect for outdoor cooking!"}
+            ]
+        }
+    ]
+}

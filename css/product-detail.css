@@ -1,0 +1,217 @@
+body {
+    animation: gradientShift 5s ease infinite;
+}
+#product-details{
+    margin-top: 5%;
+    height: 60%;
+    width: 80%;
+    left: 10%;
+    border-radius: 10px;
+   
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.product{
+    margin-top: 5%;
+    height: 60%;
+    width: 80%;
+    left: 10%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+@keyframes gradientShift {
+    0% {
+        background: linear-gradient(135deg, #be96ee, #f9a1d3);
+    }
+    50% {
+        background: linear-gradient(135deg, #be8fe9, #f1c6ea);
+    }
+    100% {
+        background: linear-gradient(135deg, #cf84f2, #b685b3);
+    }
+}
+/* Basic reset and body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff; /* White background */
+    color: #333;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.btn-back {
+    background: linear-gradient(135deg, #8e2de2, #4a00e0);
+    color: white;
+}
+
+.btn-add-to-cart {
+    
+    color: white;
+}
+
+.btn-back:hover, .btn-add-to-cart:hover {
+    background: linear-gradient(135deg, #4a00e0, #8e2de2); /* Reverse gradient on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);/* Darker shade for back button */
+    background: #c02b91; /* Darker shade for add-to-cart button */
+}
+
+/* Header styles */
+.product-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.image-gallery img {
+    width:35%;
+    height: 30%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+/* General button styling */
+.btn-add-to-cart {
+    display: inline-flex;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f4a261;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    outline: none;
+}
+
+/* SVG styling */
+
+/* Hover effect */
+.btn-add-to-cart:hover {
+    background-color: #c451e7;
+    transform: scale(1.1); /* Slightly enlarge button */
+}
+
+/* SVG hover effect */
+.btn-add-to-cart:hover svg {
+    fill: #fff; /* Change SVG color on hover */
+    transform: rotate(15deg); /* Rotate SVG on hover */
+}
+
+/* Focus effect for accessibility */
+.btn-add-to-cart:focus {
+    outline: 2px solid #ba51e7; /* Outline color on focus */
+    outline-offset: 4px;
+}
+
+/* Ensure button size is consistent */
+.btn-add-to-cart {
+    background: linear-gradient(135deg, #8e2de2, #4a00e0);/* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    /* Optional: Add text styling if needed */
+    font-size: 16px; /* Adjust based on design */
+    color: white; /* Text color if needed */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .btn-add-to-cart {
+        width: 80px; /* Adjust for smaller screens */
+        height: 32px;
+    }
+}
+
+.product-description {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.product-price {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Reviews section */
+.reviews {
+    list-style: none;
+    padding: 0;
+}
+
+.review-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.review-item strong {
+    font-size: 1.1em;
+}
+
+.rating {
+    margin: 5px 0;
+}
+
+.star {
+    font-size: 1.5em;
+    color: #ffd700;
+    transition: color 0.3s ease;
+}
+
+.star.filled {
+    color: #f39c12; /* Lighter gold */
+}
+
+.star:hover {
+    color: #f1c40f; /* Brighter gold */
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.modal-content img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 2em;
+    color: #fff;
+    cursor: pointer;
+}
