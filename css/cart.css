@@ -286,3 +286,8 @@ body {
     text-align: center;
     margin-top: 10px;
 }
+.gallery{
+    width: 400px;
+    align-items: center;
+    margin-left: 30%;
+}
