@@ -1,9 +1,8 @@
-/* General Styles */
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif; /* Set the font family */
-    background: linear-gradient(135deg, #be96ee, #f9a1d3); /* Background gradient */
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #be96ee, #f9a1d3);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -11,7 +10,6 @@ body {
     justify-content: center;
 }
 
-/* Header Styles */
 header {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
@@ -42,12 +40,11 @@ nav ul li a {
 }
 
 nav ul li a.active {
-    color: rgb(122, 52, 226); /* Violet text color */
+    color: rgb(122, 52, 226);
     font-size: large;
     font-weight: bolder;
 }
 
-/* Main Content Styles */
 main {
     display: flex;
     flex-direction: column;
@@ -57,30 +54,26 @@ main {
     width: 100%;
 }
 
-/* Contact Form Styles */
 form {
-   
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 2px 15px rgba(122, 52, 226, 0.8), 0 4px 30px rgba(122, 52, 226, 0.5);
     max-width: 600px;
     width: 100%;
-    margin: 0 auto; /* Center horizontally */
-    position: relative; /* For mouse interaction */
+    margin: 0 auto;
+    position: relative;
     animation: formEntrance 1s ease-out;
 }
 
-/* Form Header */
 form h1 {
     color: #fff;
     margin-bottom: 20px;
     font-size: 2rem;
-    border-bottom: 2px solid #9b59b6; /* Violet underline */
+    border-bottom: 2px solid #9b59b6;
     padding-bottom: 10px;
     animation: fadeIn 1s ease-out;
 }
 
-/* Form Input Styles */
 input,
 textarea {
     background: rgba(158, 32, 186, 0.133);
@@ -100,13 +93,11 @@ textarea:focus {
     box-shadow: 0 0 5px rgba(122, 52, 226, 0.3);
 }
 
-/* Textarea */
 textarea {
     height: 150px;
     resize: vertical;
 }
 
-/* Submit Button */
 button {
     background: linear-gradient(135deg, #7a34e2, #f9a1d3);
     border: none;
@@ -115,7 +106,7 @@ button {
     color: #431553;
     font-size: 1.3rem;
     width: 60%;
-    text-align: center; /* Center horizontally */
+    text-align: center;
     font-weight: bolder;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
@@ -127,7 +118,6 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* Error and Success Messages */
 #error-message {
     color: #e74c3c;
     font-size: 1em;
@@ -140,9 +130,7 @@ button:hover {
     margin-top: 10px;
 }
 
-/* Mouse Interaction Effects */
 form:hover {
-   
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3), 0 4px 25px rgba(122, 52, 226, 0.9), 0 8px 40px rgba(122, 52, 226, 0.6);
     transform: scale(1.02);
 }
@@ -153,7 +141,6 @@ textarea:hover {
     box-shadow: 0 4px 20px rgba(122, 52, 226, 0.6);
 }
 
-/* Animations */
 @keyframes formEntrance {
     from {
         opacity: 0;

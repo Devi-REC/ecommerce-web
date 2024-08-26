@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // Glitter effect on mouse move
     document.addEventListener('mousemove', (e) => {
         createGlitter(e.clientX, e.clientY);
     });
@@ -36,29 +35,24 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Contact form submission
     const form = document.getElementById('contact-form');
     const responseMessage = document.getElementById('response-message');
 
     form.addEventListener('submit', (event) => {
-        event.preventDefault(); // Prevent the default form submission
-
-        // Simulate a successful form submission
+        event.preventDefault(); 
         setTimeout(() => {
             responseMessage.textContent = 'Your message has been sent successfully!';
-            responseMessage.style.color = '#5f23ad'; // Success color
+            responseMessage.style.color = '#5f23ad'; 
 
-            // Optionally, clear the form fields
             form.reset();
 
-            // Optionally, animate the response message
             gsap.from(responseMessage, {
                 opacity: 0,
                 duration: 1,
                 y: -20,
                 ease: 'ease-out'
             });
-        }, 1000); // Simulate a delay for form submission
+        }, 1000); 
     });
 
   

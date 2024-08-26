@@ -3,8 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const buyNowBtn = document.getElementById('buy-now-btn');
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
-    // Function to render cart items
-    // Function to render cart items
 const renderCart = () => {
     if (cart.length > 0) {
         cartList.innerHTML = cart.map((item, index) => {
@@ -36,16 +34,15 @@ const renderCart = () => {
 };
 
 
-    // Function to update cart in localStorage and re-render
+   
     const updateCart = () => {
         localStorage.setItem('cart', JSON.stringify(cart));
         renderCart();
     };
 
-    // Render cart on page load
+  
     renderCart();
 
-    // Handle Remove button click
     cartList.addEventListener('click', (e) => {
         if (e.target.classList.contains('remove-btn')) {
             const index = e.target.getAttribute('data-index');
@@ -54,7 +51,7 @@ const renderCart = () => {
         }
     });
 
-    // Handle quantity change
+ 
     cartList.addEventListener('change', (e) => {
         if (e.target.classList.contains('quantity-select')) {
             const index = e.target.getAttribute('data-index');
@@ -63,14 +60,11 @@ const renderCart = () => {
         }
     });
 
-    // Handle Buy Now button click
     buyNowBtn.addEventListener('click', () => {
         const selectedItems = Array.from(document.querySelectorAll('.select-item:checked')).map(checkbox => parseInt(checkbox.getAttribute('data-index')));
         if (selectedItems.length > 0) {
             alert('Thank you for your purchase! Redirecting to payment page...');
-            window.location.href = 'payment.html'; // Replace with actual payment page URL
-
-            // After payment success, remove purchased items
+            window.location.href = 'payment.html'; 
             cart = cart.filter((item, index) => !selectedItems.includes(index));
             updateCart();
         } else {
@@ -78,7 +72,7 @@ const renderCart = () => {
         }
     });
 
-    // Function to add items to cart (Call this function when an item is added)
+  
     const addToCart = (newItem) => {
         const existingItemIndex = cart.findIndex(item => item.id === newItem.id);
         if (existingItemIndex > -1) {
@@ -88,7 +82,6 @@ const renderCart = () => {
         }
         updateCart();
     };
-      // Add any general JS code here
       document.addEventListener('mousemove', (e) => {
         createGlitter(e.clientX, e.clientY);
     });

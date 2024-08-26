@@ -24,20 +24,20 @@ h1{
 }
 
 header {
-    background-color: #202122ca; /* Semi-transparent violet background */
-    color: #7a34e2; /* Violet text color */
-    padding: 10px 0; /* Space above and below */
+    background-color: #202122ca; 
+    color: #7a34e2; 
+    padding: 10px 0; 
     display: flex;
 
-    align-items: center; /* Center-aligns content */
-    border-bottom: 2px solid rgba(122, 52, 226, 0.5); /* Light violet bottom border */
+    align-items: center; 
+    border-bottom: 2px solid rgba(122, 52, 226, 0.5);
     box-shadow: 0 2px 15px rgba(122, 52, 226, 0.8), 0 4px 30px rgba(122, 52, 226, 0.5); /* Glowing light effect */
     font-family: 'Poppins', sans-serif;
 }
 
 nav {
     display: flex;
-    justify-content: space-between; /* Align logo to the left and links to the right */
+    justify-content: space-between; 
     align-items: center;
 }
 
@@ -48,17 +48,17 @@ nav {
 }
 
 .logo-img {
-    width: 80px; /* Adjust the size as needed */
+    width: 80px; 
     height: auto;
    
 }
 
 .logo-text {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 24px; /* Adjust the size as needed */
+    font-size: 24px;
     font-weight: bolder;
     
-    color: #baaac7; /* Adjust color as needed */
+    color: #baaac7; 
 }
 
 
@@ -67,11 +67,11 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 20px; /* Space between nav items */
+    gap: 20px; 
 }
 
 nav a {
-    color: #fff; /* White text color */
+    color: #fff; 
     text-decoration: none;
     font-size: 1rem;
 }
@@ -81,46 +81,45 @@ nav a:hover {
 }
 
 nav ul li a.active {
-    color: rgb(122, 52, 226); /* Violet text color */
+    color: rgb(122, 52, 226); 
     font-size: large;
     font-weight: bolder;
 }
 .filters-container {
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Space between rows */
-    margin: 40px auto; /* Center horizontally with margin auto */
-    width: 80%; /* Adjust width as needed */
-    max-width: 600px; /* Maximum width to prevent excessive stretching */
+    gap: 15px; 
+    margin: 40px auto; 
+    width: 80%; 
+    max-width: 600px; 
 }
 
-/* Flex container for each filter row */
+
 .filter {
     display: flex;
     align-items: center;
-    gap: 10px; /* Space between label and input/select */
+    gap: 10px; 
 }
 
-/* Style for labels */
 .filter label {
     font-size: 1.2rem;
     font-weight: bold;
     color: #333;
-    width: 90px; /* Adjust width as needed */
+    width: 90px; 
 }
 
-/* Style for input fields and select box */
+
 .filter input[type="text"],
 .filter select {
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
-    flex: 1; /* Allow input/select to take available space */
-    max-width: 300px; /* Adjust width as needed */
+    flex: 1; 
+    max-width: 300px; 
 }
 
-/* Optional: Adjust margins or spacing as needed */
+
 .filters-container,
 .filter label,
 .filter input[type="text"],
@@ -144,7 +143,6 @@ nav ul li a.active {
     padding: 20px;
 }
 
-/* Glass effect for product cards */
 .product-card {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
@@ -160,16 +158,14 @@ nav ul li a.active {
     transform: scale(1.05);
 }
 
-/* Image styles */
 .product-card img {
     max-width: 100%;
-    height: 200px; /* Fixed height for consistency */
-    object-fit: cover; /* Maintains aspect ratio */
+    height: 200px;
+    object-fit: cover; 
     border-radius: 8px;
     margin-bottom: 10px;
 }
 
-/* Title and description styles */
 .product-card h3 {
     margin: 10px 0;
     font-size: 18px;
@@ -180,7 +176,6 @@ nav ul li a.active {
     font-size: 16px;
 }
 
-/* Themed link styles */
 .product-card a {
     display: inline-block;
     margin-top: 10px;
@@ -209,7 +204,7 @@ h1 {
     gap: 20px;
     padding: 20px;
 }
-/* Glitter effect styles */
+
 #glitter-container {
     position: fixed;
     top: 0;
@@ -229,7 +224,7 @@ h1 {
     box-shadow: 0 0 10px rgba(251, 245, 245, 0.629);
     opacity: 0;
 }
-/* Contact Form Styles */
+
 form {
     
     border-radius: 10px;
@@ -296,7 +291,6 @@ form button:hover {
     transform: scale(1.05);
 }
 
-/* Error and Success Messages */
 #error-message {
     color: #e74c3c;
     font-size: 1em;
@@ -318,12 +312,12 @@ form button:hover {
     scroll-behavior: smooth;
     gap: 20px;
     padding: 20px;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
 }
 
 .gallery-scroll::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera */
+    display: none; 
 }
 h1 {
     font-family: 'Josefin Sans', sans-serif, cursive;
@@ -333,7 +327,7 @@ h1 {
     overflow: hidden;
     white-space: nowrap;
     position: relative;
-    width: 100%; /* Takes full width to ensure it can center properly */
+    width: 100%; 
     text-align: center;
     animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite, moveToCenter 5s ease-in-out forwards;
 }

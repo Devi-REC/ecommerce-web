@@ -1,7 +1,7 @@
-/* Glass effect */
-body{
+body {
     font-family: 'Josefin Sans', sans-serif;
 }
+
 .glass {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
@@ -12,15 +12,12 @@ body{
     transition: background 0.3s ease;
 }
 
-/* Glass effect hover */
 .glass:hover {
     background: rgba(255, 255, 255, 0.2);
 }
 
-/* Header styles */
 header {
     display: flex;
-    
     align-items: center;
     margin-bottom: 20px;
 }
@@ -31,29 +28,26 @@ header h1 {
     margin-bottom: 10px;
 }
 
-/* Filters section */
 .filters {
     display: flex;
     gap: 10px;
 }
 
-/* Search bar and category filter styles */
 #search-bar {
     backdrop-filter: blur(10px);
     font-size: 16px;
     color: #fff;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 2px 15px rgba(122, 52, 226, 0.8), 0 4px 30px rgba(122, 52, 226, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    appearance: none; /* Remove default arrow */
+    appearance: none;
     padding: 10px;
-   
     border-radius: 10px;
     outline: none;
     background: rgba(255, 255, 255, 0.2);
     font-size: 16px;
     width: 400px;
 }
-/* Style the select dropdown */
+
 #category-filter {
     text-align: center;
     padding: 10px;
@@ -65,38 +59,33 @@ header h1 {
     backdrop-filter: blur(10px);
     font-size: 16px;
     color: #6c2a69;
-   
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    appearance: none; /* Remove default arrow */
-    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23fff" width="24px" height="24px"%3E%3Cpath d="M7 10l5 5 5-5H7z"/%3E%3C/svg%3E'); /* Custom arrow */
+    appearance: none;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23fff" width="24px" height="24px"%3E%3Cpath d="M7 10l5 5 5-5H7z"/%3E%3C/svg%3E');
     background-repeat: no-repeat;
     background-position: right 10px center;
     cursor: pointer;
 }
 
-/* Style the dropdown options */
 #category-filter option {
-    color: #333; /* Text color */
-    background: #99729a63; /* Background color */
+    color: #333;
+    background: #99729a63;
     padding: 10px;
     font-size: 16px;
     border-bottom: 1px solid #ccc;
 }
 
-/* Add hover effect on options (only supported in some browsers) */
 #category-filter option:hover {
     background-color: #b139cf;
     color: #000;
 }
 
-/* Focus effect for select dropdown */
 #category-filter:focus {
     outline: none;
     border: 2px solid #b93bca;
     background: rgba(255, 255, 255, 0.4);
 }
 
-/* Animation for glass effect */
 @keyframes glassShimmer {
     0% {
         background: rgba(255, 255, 255, 0.2);
@@ -113,20 +102,16 @@ header h1 {
     animation: glassShimmer 3s infinite;
 }
 
-
-/* Product grid */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 30fr));
     gap: 20px;
 }
 
-/* Product card with shining glass effect */
 .product-card {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    
     padding: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
     backdrop-filter: blur(10px);
@@ -135,7 +120,6 @@ header h1 {
     overflow: hidden;
 }
 
-/* Shine animation for product cards */
 @keyframes shine {
     0% {
         background-position: -200% 0;
@@ -158,7 +142,6 @@ header h1 {
     pointer-events: none;
 }
 
-/* Hover effect for shine animation */
 .product-card:hover::before {
     opacity: 0.5;
     animation: shine 1.5s infinite linear;
@@ -169,8 +152,6 @@ header h1 {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-
-
 .product-card h3 {
     margin-top: 10px;
     font-size: 1.2em;
@@ -180,7 +161,6 @@ header h1 {
     color: #333;
 }
 
-/* Gradient animation */
 @keyframes gradientShift {
     0% {
         background: linear-gradient(135deg, #be96ee, #f9a1d3);
@@ -193,26 +173,24 @@ header h1 {
     }
 }
 
-/* Apply gradient animation to the body */
 body {
     animation: gradientShift 5s ease infinite;
 }
-/* Header styling */
+
 header {
-    background-color: #202122ca; /* Semi-transparent violet background */
-    color: #7a34e2; /* Violet text color */
-    padding: 10px 0; /* Space above and below */
+    background-color: #202122ca;
+    color: #7a34e2;
+    padding: 10px 0;
     display: flex;
-   
-    align-items: center; /* Center-aligns content */
-    border-bottom: 2px solid rgba(122, 52, 226, 0.5); /* Light violet bottom border */
-    box-shadow: 0 2px 15px rgba(122, 52, 226, 0.8), 0 4px 30px rgba(122, 52, 226, 0.5); /* Glowing light effect */
+    align-items: center;
+    border-bottom: 2px solid rgba(122, 52, 226, 0.5);
+    box-shadow: 0 2px 15px rgba(122, 52, 226, 0.8), 0 4px 30px rgba(122, 52, 226, 0.5);
     font-family: 'Poppins', sans-serif;
 }
 
 nav {
     display: flex;
-    justify-content: space-between; /* Align logo to the left and links to the right */
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -223,23 +201,19 @@ nav {
 }
 
 .logo-img {
-    width: 80px; /* Adjust the size as needed */
+    width: 80px;
     height: auto;
-   
 }
 
 .logo-text {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 24px; /* Adjust the size as needed */
+    font-size: 24px;
     font-weight: bolder;
-    
-    color: #baaac7; /* Adjust color as needed */
+    color: #baaac7;
 }
 
-
-/* Navigation styling */
 nav {
-    margin-bottom: 15px; /* Gap between nav and heading */
+    margin-bottom: 15px;
 }
 
 nav ul {
@@ -247,11 +221,11 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 20px; /* Space between nav items */
+    gap: 20px;
 }
 
 nav a {
-    color: #fff; /* White text color */
+    color: #fff;
     text-decoration: none;
     font-size: 1rem;
 }
@@ -261,21 +235,18 @@ nav a:hover {
 }
 
 nav ul li a.active {
-    color: rgb(122, 52, 226); /* Violet text color */
+    color: rgb(122, 52, 226);
     font-size: large;
     font-weight: bolder;
 }
 
-
-/* Header title styling */
 h1 {
     font-size: 3rem;
     text-align: center;
-    position: relative; /* Position for animation */
-    animation: fadeInUp 1.5s ease-out; /* Animation for h1 */
+    position: relative;
+    animation: fadeInUp 1.5s ease-out;
 }
 
-/* Animation keyframes */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -287,20 +258,12 @@ h1 {
     }
 }
 
-
-
-/* Glitter container styling */
 .glitter-container {
-    /* Add styling for glitter effect here */
 }
 
-/* Product list styling */
 .product-list {
-    /* Add styling for product list here */
 }
 
-
-/* Modal styles for zoomed image */
 .modal {
     display: none;
     position: fixed;
