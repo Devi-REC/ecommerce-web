@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem('cart', JSON.stringify(cart));
             alert('Added to cart!');
         });
-
+       
         const images = document.querySelectorAll('.product-image');
         const modal = document.createElement('div');
         modal.classList.add('modal');
@@ -103,6 +103,39 @@ document.addEventListener('DOMContentLoaded', () => {
         window.addEventListener('click', (e) => {
             if (e.target === modal) {
                 modal.style.display = 'none';
+            }
+        });
+    }
+    document.addEventListener('mousemove', (e) => {
+        createGlitter(e.clientX, e.clientY);
+    });
+    function createGlitter(x, y) {
+        const glitterContainer = document.getElementById('glitter-container');
+        if (!glitterContainer) {
+            console.error('Glitter container not found.');
+            return;
+        }
+
+        const glitter = document.createElement('div');
+        glitter.classList.add('glitter');
+        glitter.style.left = `${x}px`;
+        glitter.style.top = `${y}px`;
+        
+        glitterContainer.appendChild(glitter);
+
+        gsap.to(glitter, {
+            opacity: 1,
+            duration: 0.3,
+            ease: "power1.out",
+            onComplete: () => {
+                gsap.to(glitter, {
+                    opacity: 0,
+                    duration: 0.5,
+                    ease: "power1.in",
+                    onComplete: () => {
+                        glitter.remove();
+                    }
+                });
             }
         });
     }

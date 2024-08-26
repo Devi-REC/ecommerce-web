@@ -1,5 +1,8 @@
 /* Cart Page Styles */
 /* Cart Item Styles */
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
 .cart-item {
     display: flex;
     align-items: center;
@@ -14,7 +17,30 @@
     position: relative;
     overflow: hidden;
 }
+#glitter-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+}
 
+.glitter {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgb(244, 237, 245) 0%, rgba(255,255,255,0) 90%);
+    box-shadow: 0 0 10px rgba(251, 245, 245, 0.629);
+    opacity: 0;
+}
+nav ul li a.active {
+    color: rgb(122, 52, 226); /* Violet text color */
+    font-size: large;
+    font-weight: bolder;/* Violet border bottom */
+}
 /* Hover effect for cart items */
 .cart-item:hover {
     transform: scale(1.02);
@@ -72,15 +98,18 @@
 
 /* Empty cart message */
 #cart-list p {
-    font-size: 1.2em;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
-    color: #720d91;
+    color: #370746;
 }
 
 /* Buy Now Button */
 .buy-now {
     text-align: center;
     margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 #buy-now-btn {
@@ -111,20 +140,43 @@
     max-width: 800px;
     transition: background 0.3s ease;
 }
-
-/* Header */
 header {
-    background-color: #000; /* Black background */
-    color: #fff; /* White text color */
-    padding: 20px 0; /* Space above and below */
+    background-color: #202122ca; /* Semi-transparent violet background */
+    color: #7a34e2; /* Violet text color */
+    padding: 10px 0; /* Space above and below */
     display: flex;
-    flex-direction: column;
+  
     align-items: center; /* Center-aligns content */
+    border-bottom: 2px solid rgba(122, 52, 226, 0.5); /* Light violet bottom border */
+    box-shadow: 0 2px 15px rgba(122, 52, 226, 0.8), 0 4px 30px rgba(122, 52, 226, 0.5); /* Glowing light effect */
+    font-family: 'Poppins', sans-serif;
+}
+/* Navigation styling */
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Align logo to the left and links to the right */
+    align-items: center;
 }
 
-/* Navigation styling */
-nav {
-    margin-bottom: 15px; /* Gap between nav and heading */
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 24%;
+}
+
+.logo-img {
+    width: 80px; /* Adjust the size as needed */
+    height: auto;
+   
+}
+
+.logo-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px; /* Adjust the size as needed */
+    font-weight: bolder;
+    
+    color: #baaac7; /* Adjust color as needed */
 }
 
 nav ul {

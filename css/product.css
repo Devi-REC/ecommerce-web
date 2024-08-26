@@ -1,4 +1,7 @@
 /* Glass effect */
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
 .glass {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
@@ -17,7 +20,7 @@
 /* Header styles */
 header {
     display: flex;
-    flex-direction: column;
+    
     align-items: center;
     margin-bottom: 20px;
 }
@@ -39,7 +42,7 @@ header h1 {
     backdrop-filter: blur(10px);
     font-size: 16px;
     color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 2px 15px rgba(122, 52, 226, 0.8), 0 4px 30px rgba(122, 52, 226, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     appearance: none; /* Remove default arrow */
     padding: 10px;
@@ -54,13 +57,15 @@ header h1 {
 #category-filter {
     text-align: center;
     padding: 10px;
+    font-weight: bold;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 2px 15px rgba(122, 52, 226, 0.8), 0 4px 30px rgba(122, 52, 226, 0.5);
     border: none;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     font-size: 16px;
     color: #6c2a69;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     appearance: none; /* Remove default arrow */
     background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23fff" width="24px" height="24px"%3E%3Cpath d="M7 10l5 5 5-5H7z"/%3E%3C/svg%3E'); /* Custom arrow */
@@ -194,13 +199,43 @@ body {
 }
 /* Header styling */
 header {
-    background-color: #000; /* Black background */
-    color: #fff; /* White text color */
-    padding: 20px 0; /* Space above and below */
+    background-color: #202122ca; /* Semi-transparent violet background */
+    color: #7a34e2; /* Violet text color */
+    padding: 10px 0; /* Space above and below */
     display: flex;
-    flex-direction: column;
+   
     align-items: center; /* Center-aligns content */
+    border-bottom: 2px solid rgba(122, 52, 226, 0.5); /* Light violet bottom border */
+    box-shadow: 0 2px 15px rgba(122, 52, 226, 0.8), 0 4px 30px rgba(122, 52, 226, 0.5); /* Glowing light effect */
+    font-family: 'Poppins', sans-serif;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Align logo to the left and links to the right */
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 24%;
+}
+
+.logo-img {
+    width: 80px; /* Adjust the size as needed */
+    height: auto;
+   
+}
+
+.logo-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px; /* Adjust the size as needed */
+    font-weight: bolder;
+    
+    color: #baaac7; /* Adjust color as needed */
+}
+
 
 /* Navigation styling */
 nav {
@@ -224,6 +259,13 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+nav ul li a.active {
+    color: rgb(122, 52, 226); /* Violet text color */
+    font-size: large;
+    font-weight: bolder;
+}
+
 
 /* Header title styling */
 h1 {
@@ -290,4 +332,8 @@ h1 {
     font-size: 2em;
     color: #fff;
     cursor: pointer;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
 }
