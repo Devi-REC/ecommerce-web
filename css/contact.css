@@ -48,7 +48,6 @@ nav ul li a.active {
 main {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     max-width: 1500px;
 }
@@ -164,6 +163,7 @@ textarea:hover {
 .cont{
     display: flex;
     width: 1000px;
+   
   
 }
 @keyframes fadeIn {

@@ -206,20 +206,22 @@ h1 {
 
 @keyframes cartGradientShift {
     0% {
-        background: linear-gradient(135deg, #be96ee, #f9a1d3);
+        background: linear-gradient(135deg, #be96ee, #7d2d5a);
     }
     50% {
-        background: linear-gradient(135deg, #be8fe9, #f1c6ea);
+        background: linear-gradient(135deg, #be8fe9, #742767);
     }
     100% {
-        background: linear-gradient(135deg, #cf84f2, #b685b3);
+        background: linear-gradient(135deg, #cf84f2, #830b7b);
     }
 }
 
 body {
     animation: cartGradientShift 5s ease infinite;
 }
-
+.ca{
+    margin-top: 5%;
+}
 #payment-form {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
