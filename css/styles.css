@@ -31,7 +31,7 @@ header {
 
     align-items: center; 
     border-bottom: 2px solid rgba(122, 52, 226, 0.5);
-    box-shadow: 0 2px 15px rgba(122, 52, 226, 0.8), 0 4px 30px rgba(122, 52, 226, 0.5); /* Glowing light effect */
+    box-shadow: 0 2px 15px rgba(122, 52, 226, 0.8), 0 4px 30px rgba(122, 52, 226, 0.5); 
     font-family: 'Poppins', sans-serif;
 }
 
@@ -180,7 +180,7 @@ nav ul li a.active {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 12px;
-    background: linear-gradient(135deg, #8e2de2, #4a00e0); /* Gradient background */
+    background: linear-gradient(135deg, #8e2de2, #4a00e0); 
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
@@ -208,7 +208,7 @@ h1 {
 }
 
 .product-card a:hover {
-    background: linear-gradient(135deg, #4a00e0, #8e2de2); /* Reverse gradient on hover */
+    background: linear-gradient(135deg, #4a00e0, #8e2de2); 
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
 }
 .product-list{
